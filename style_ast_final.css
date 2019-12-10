@@ -1,0 +1,164 @@
+/* MAIN CSS */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#back-to-top img {
+  width: 50px;
+}
+
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-1 {
+  background: url("./night-sky.jpg");
+}
+
+.background-2 {
+  background: url("./night-sky.jpg");
+}
+.background-3 {
+  background: url("./night-sky.jpg");
+}
+
+a,
+h2 {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7rem;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+  margin: 0 64px;
+  border-radius: 25px;
+}
+
+.nav-item:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 0px 10px white, -10px 0px 10px white;
+  color: white;
+}
+
+/* INDEX CSS */
+
+/* GENRE CSS */
+
+.genre-text {
+  font-size: 2rem;
+}
+
+/* HISTORY CSS */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.quote {
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+.types {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: white;
+  width: 100vw;
+}
+
+.timeline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(230, 206, 100);
+}
+
+.genre-underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(230, 206, 100);
+}
+
+.rect {
+  background-color: rgb(226, 226, 226);
+  height: 150px;
+  justify-content: center;
+  align-content: center;
+}
+
+.img-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.img-row img {
+  display: inline-block;
+  width: 150px;
+  margin-right: 200px;
+}
+
+.row-img {
+  width: 30vw;
+  text-align: center;
+}
+
+.row-text {
+  width: 70vw;
+  margin: 0;
+  padding-right: 128px;
+}
+
+.my-row img {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  margin: 0;
+}
+
+.my-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin: 32px 0;
+}
